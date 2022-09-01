@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>About</title>
+  <link rel="icon" type="image/x-icon" href="logo.jpeg">
+  <link href="about.css" rel="stylesheet" type="text/css" />
+
+<!--   importing font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class = "container">
+    <div class = "navbar">
+      <a href = "index.html"><img src = "logo.jpeg" class = "logo"></a>
+      <nav>
+        <ul id = "menuList">
+          <li><a href = "about.html"class = "selected">About</a></li>
+          <li><a href = "services.html"class = "other">Services</a></li>
+          <li><a href = "contact.html" class = "other">Contact</a></li>
+        </ul>
+      </nav>
+      <img src = "menu.jpeg" class = "menu-icon" onclick = "togglemenu()">
+    </div>
+
+
+  <h2>About</h2>
+
+  <p>Hi, I'm Yuan.</p>
+
+  <p> I have been playing badminton for 20+ years and help restring rackets around the Western MA/Central CT Area.</p>
+
+  <p>Check out pictures of my work below and contact me <a href = "contact.html">here.</a></p>
+     </div>
+
+
+<!--  picture carousel -->
+    <div class="carousel">
+      
+      <button class="carousel__button carousel__button--left is-hidden">
+        <img src="leftArrow.png">
+      </button>
+      
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <img class="carousel__image" src="images/img1.png">
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="images/img2.png">
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="images/img3.png">
+          </li>  
+        </ul>
+      </div>     
+    
+      <button class="carousel__button carousel__button--right">
+        <img src="rightArrow.png">
+      </button>
+
+      <div class="carousel__nav">
+        <button class = "carousel__indicator current-slide"></button>
+        <button class = "carousel__indicator"></button>
+        <button class = "carousel__indicator"></button>
+      </div>
+
+
+      
+
+      
+    </div>
+
+  
+
+   
+  
+  
+  
+  
+
+  <script src="about.js"></script>
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer>
+  </script> 
+</body>
+
+</html>
