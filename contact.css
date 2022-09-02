@@ -5,7 +5,7 @@ html, body {
 
 .container {
   width: 100%;
-  min-height: 100vh;
+  min-height: 60vh;
   padding-left: 8%;
   padding-right: 8%;
   box-sizing: border-box;
@@ -97,4 +97,59 @@ p{
     overflow: hidden;
     transition: 0.5s;
   }
+}
+
+.formContainer {
+  width: 100%;
+  min-height: 50vh;
+/*   background: #52796F; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h3{
+  color: #2F3E46;
+  margin-bottom: 20px;
+}
+
+form input, form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #CAD2C5;
+  font-size: 16px;
+}
+
+::placeholder {
+  font-family: "Nunito";
+}
+
+input, textarea{
+  font-family: "Nunito";
+  color: #2F3E46;
+}
+
+form button {
+  padding: 15px;
+  background: #84A98C;
+  color: #2F3E46;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 40px;
 }
